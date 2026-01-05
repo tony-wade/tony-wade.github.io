@@ -49,32 +49,33 @@ body {
    選項欄
 ===================== */
 .categories {
-  margin-top: 24px;    /* 主頁圖下的距離*/
+  margin-top: 24px;           /* 主頁圖下的距離*/
   display: flex;
   justify-content: center;    /* 置中 */
-  gap: 16px;           /* 選項間距 */
-  flex-wrap: wrap;     /* 一排,但在小螢幕會換成多排 */
+  gap: 16px;                  /* 選項間距 */
+  flex-wrap: wrap;            /* 一排,但在小螢幕會換成多排 */
 }
 
 .categories a {
-  text-decoration: none;    /* 取消默認之底線 */
-  color: #111;      
+  text-decoration: none;      /* 取消默認之底線 */
+  color: #111;                /* 選項顏色 */
   width: 120px;
   font-size: 0.9rem;
 }
 
+/* 滑鼠在圖上的特效 */
 .categories img {
   width: 100%;
-  border-radius: 4px;
-  transition: 0.3s ease;
+  border-radius: 4px;         /* 選項圖的圓角 */
+  transition: 0.3s ease;      /* 效果 */
 }
 
 .categories img:hover {
-  opacity: 0.8;
-  transform: scale(1.05);
+  opacity: 0.8;                /* 透明度 */
+  transform: scale(1.05);      /* 放大 */
 }
 
 .categories span {
   display: block;
-  margin-top: 8px;
+  margin-top: 8px;             /* 選項圖與選項間距 */
 }
